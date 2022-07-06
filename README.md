@@ -1,4 +1,4 @@
-# cod654b578e6ef2dd7536037f
+# Scrimba SOLO PROJECT 2 (Basketball Scoreboard app)
 
 ## About Scrimba
 
