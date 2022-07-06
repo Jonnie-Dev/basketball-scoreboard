@@ -1,4 +1,4 @@
-# SOLO PROJECT 2 (Basketball Scoreboard app)
+# Scrimba SOLO PROJECT 2 (Basketball Scoreboard app)
 
 ## About Scrimba
 
