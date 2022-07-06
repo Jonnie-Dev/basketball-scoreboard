@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="game">
+           <div class="container">
+                <div class="home">
+                    <h3 class="sans">HOME</h3>
+                    <div class="score">
+                        <p class="score-num" id="score1">0</p>
+                    </div>
+                    <div class="btn">
+                        <button id="btn-a" class="each-btn btn1">+1</button>
+                        <button id="btn-b" class="each-btn btn2">+2</button>
+                        <button id="btn-c" class="each-btn btn3">+3</button>
+                    </div>
+                </div>
+                <div class="away">
+                    <h3 class="sans">AWAY</h3>
+                    <div class="score">
+                        <p class="score-num" id="score2">0</p>
+                    </div>
+                    <div class="btn">
+                        <button id="btn-1" class="each-btn btn1">+1</button>
+                        <button id="btn-2" class="each-btn btn2">+2</button>
+                        <button id="btn-3" class="each-btn btn3">+3</button>
+                    </div>
+                </div>
+           </div>
+           <button id="end-game" class="end-game">End Match</button>
+           <p id="comment" class="comment"></p>
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>

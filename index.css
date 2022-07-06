@@ -1,0 +1,92 @@
+* {
+    margin: unset;
+}
+
+body {
+    color: #F5F3FF;
+    text-align: center
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+.game {
+    max-width: 650px;
+    background-color: #4C1D95;
+    padding: 25px 10px 40px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.sans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.home, .away {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    margin-bottom: 24px;
+    background-color: #140F1D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    padding-top: 12px;
+}
+
+.score-num {
+    color: #F43F5E;
+}
+
+button {
+    cursor: pointer
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each-btn {
+    font-family: 'Cursed Timer ULiL';
+    border-radius: 5px;
+    padding: 8px;
+    background: transparent;
+    border: 2px #D1D5DB solid;
+    color: #D1D5DB;
+}
+
+.each-btn:not(:last-child){
+    margin-right: 16px;
+}
+
+.end-game {
+    margin: 48px auto 24px;
+    background: #D1D5DB;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #4C1D95;
+    font-size: 24px;
+    border: none;
+}
+
+.comment {
+    font-size: 16px;
+    color: #C4B5FD;
+}
+
+
