@@ -17,13 +17,13 @@ body {
 .game {
     max-width: 650px;
     background-color: #4C1D95;
-    padding: 25px 10px 40px 10px;
     margin: 0 auto;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    padding: 25px 10px 40px 10px;
 }
 
 .sans {
@@ -42,7 +42,7 @@ body {
     background-color: #140F1D;
     font-size: 90px;
     font-family: 'Cursed Timer ULiL';
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .score-num {
@@ -84,8 +84,10 @@ button {
 }
 
 .comment {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #C4B5FD;
+    margin-bottom: 8px;
 }
 
 
