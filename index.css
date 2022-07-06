@@ -18,13 +18,12 @@ body {
     max-width: 650px;
     background-color: #4C1D95;
     padding: 25px 10px 40px 10px;
+    margin: 0 auto;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
-
 }
 
 .sans {
