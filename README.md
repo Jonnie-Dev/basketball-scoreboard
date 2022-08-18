@@ -1,5 +1,9 @@
 # Scrimba SOLO PROJECT 2 (Basketball Scoreboard app)
 
+Here is an app to keep counts during a basketball match, the +1 button for in-circle shots, +2 for mid-ranged shots and the +3 for outside shots (these names are placeholders, will update them as soon I get to know what they are called professionally). Scores update in real time as the scores are awarded and the match can be ended at any time depending on the time lapse of the match (will add a timer soon as soon as I learn how to create a timing function). There's also an outcome update at the end of the match, either the home or away team wins, or the match is a draw (will add a cafetere also as soon as I learn how to too)
+
+This is a solo project from the Frontend Developer Career Path as well by Scrimba
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
